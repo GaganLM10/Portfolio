@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Edu+TAS+Beginner&family=Merriweather+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Edu+TAS+Beginner&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Asap:ital@1&display=swap');
+
+body {
+    background-color: var(--secondary-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: var(--primary-color);
+    width: 35%;
+    font-family: 'Arvo', serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* .sidebar nav li a:hover {
+    background-color: rgb(15, 8, 8);
+    color: #90e4fc;
+} */
+
+.container {
+    display: flex;
+}
+
+.football-container {
+    height: 50vw;
+}
+
+
+#img1 {
+    left: 7%;
+    width: auto;
+    height: 35%;
+    position: relative;
+    top: 15%;
+    margin-bottom: 6%;
+}
+
+#img2 {
+    width: auto;
+    height: 35%;
+    position: relative;
+    left: 12%;
+    top: 15%;
+    margin-bottom: 6%;
+}
+
+#img3 {
+    width: auto;
+    height: 35.5%;
+    position: relative;
+    left: 7%;
+    top: 15%;
+}
+
+#img4 {
+    width: auto;
+    height: 35.5%;
+    position: relative;
+    left: 12%;
+    top: 15%;
+}
+
+#img5 {
+    width: auto;
+    height: 35.5%;
+    position: relative;
+    left: 18%;
+    top: 15%;
+}
+
+h1 {
+    position: absolute;
+    left: 45%;
+    top: 2%;
+    font-size: 45px;
+    font-family: Geneva, Verdana, sans-serif;
+    color: var(--primary-color);
+}
+
+.neymar {
+    display: inline;
+    position: relative;
+    left: -50%;
+    top: -26%;
+    width: 20%;
+    font-size: 30px;
+    color: var(--primary-color);
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.haaland {
+    display: inline;
+    position: relative;
+    left: -13%;
+    top: -26%;
+    width: 20%;
+    font-size: 30px;
+    color: var(--primary-color);
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.messi {
+    display: inline;
+    position: relative;
+    left: -64%;
+    top: 20%;
+    width: 20%;
+    font-size: 30px;
+    color: var(--primary-color);
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.ronaldo {
+    display: inline;
+    position: relative;
+    left: 56%;
+    top: 15%;
+    width: 20%;
+    font-size: 30px;
+    color: var(--primary-color);
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.ronaldinho {
+    display: inline;
+    position: relative;
+    left: 68%;
+    top: 15%;
+    width: 20%;
+    font-size: 30px;
+    color: var(--primary-color);
+    opacity: 0;
+    transition: .2s ease;
+}
+
+.football-container:hover .neymar {
+    opacity: 1;
+}
+
+.football-container:hover .haaland {
+    opacity: 1;
+}
+
+.football-container:hover .messi {
+    opacity: 1;
+}
+
+.football-container:hover .ronaldo {
+    opacity: 1;
+}
+
+.football-container:hover .ronaldinho {
+    opacity: 1;
+}
+
+#icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 2%;
+    left: 97%;
+}
+
+:root {
+    --primary-color: #90e4fc;
+    --secondary-color: black;
+}
+
+.light-theme {
+    --primary-color: black;
+    --secondary-color: #90e4fc;
+}

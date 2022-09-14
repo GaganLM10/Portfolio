@@ -1,0 +1,48 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="football.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="/images/dark theme icon/sun.png" id="icon" />
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="football.html">Football</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="anime.html">Anime</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1>Just Football Here</h1>
+      <div class="football-container">
+      <a href="https://www.youtube.com/watch?v=SKui6g5I3Xs" target="_blank"><img id="img1" src="/images/Neymar.jpg" alt=""></a>
+      <a href="https://www.youtube.com/watch?v=VfdjucOGAsw" target="_blank"><img id="img2" src="/images/Haaland.jpg" alt=""></a>
+      <a href="https://www.youtube.com/watch?v=YrmC5l-0RJM" target="_blank"><img id="img3" src="/images/messi.jpg" alt=""></a>
+      <a href="https://www.youtube.com/watch?v=bdPvE4QpgqM" target="_blank"><img id="img4" src="/images/ronaldo.jpg_large" alt=""></a>
+      <a href="https://www.youtube.com/watch?v=_dBz4dTZocg&t=647s" target="_blank"><img id="img5" src="/images/ronaldinho.jpg" alt=""></a>
+      <div class="neymar">Neymar</div>
+      <div class="haaland">Haaland</div>
+      <div class="messi">Messi</div>
+      <div class="ronaldo">Ronaldo</div>
+      <div class="ronaldinho">Ronaldinho</div>
+    </div>
+    </div>
+    <script>
+      var icon = document.getElementById("icon");
+      icon.onclick = function () {
+        document.body.classList.toggle("light-theme");
+        if (document.body.classList.contains("light-theme")) {
+          icon.src = "/images/dark theme icon/moon.png";
+        } else {
+          icon.src = "/images/dark theme icon/sun.png";
+        }
+      };
+    </script>
+  </body>
+</html>

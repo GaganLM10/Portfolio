@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Edu+TAS+Beginner&family=Merriweather+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Edu+TAS+Beginner&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Asap:ital@1&display=swap');
+
+body {
+    background: #040b27;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #90e4fc;
+    --secondary-color: black;
+}
+.light-theme{
+    --primary-color: black;
+    --secondary-color: #90e4fc;
+}
+.sidebar {
+    background-color: var(--primary-color);
+    width: 25%;
+    font-family: 'Arvo', serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.main {
+    width: 90vw;
+    background-color: var(--secondary-color);
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    color: var(--primary-color);
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello {
+    font-family: 'Arvo', serif;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-size: 75px;
+}
+
+
+.about {
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.aboutmore {
+    margin-top: 20px;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+.devInfo {
+    margin: 0 180px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.devpic img {
+    height: 58vh;
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
+.btn-sbm {
+    margin: 10px 0px;
+}
+
+.contactform {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 34px;
+    padding-top: 140px;
+}
+
+.contactform h1 {
+    font-family: 'Roboto', sans-serif;
+    /* text-align: center; */
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 9px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailhelp {
+    font-size: 10px;
+    color: blue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 0px 0px;
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+.form-label,
+.form-check-label {
+    color: var(--primary-color);
+}
+
+.form-control {
+    font-weight: 800;
+}
+
+#icon {
+    width: 30px;
+    cursor: pointer;
+    position: relative;
+    top: 2%;
+    left: 97%;
+}

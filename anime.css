@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Edu+TAS+Beginner&family=Merriweather+Sans:ital,wght@1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Edu+TAS+Beginner&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@1,700&family=Asap:ital@1&display=swap');
+
+body {
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #90e4fc;
+    width: 18%;
+    font-family: 'Arvo', serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.title-word {
+    animation: color-animation 1s linear infinite;
+    padding: 1% 1%;
+}
+
+.title-word-1 {
+    --color-1: #1dbcce;
+    --color-2: #5ce95a;
+    --color-3: #E4A9A8;
+}
+
+.title-word-2 {
+    --color-1: #DBAD4A;
+    --color-2: #ACCFCB;
+    --color-3: #c436e1;
+}
+
+.title-word-3 {
+    --color-1: #ACCFCB;
+    --color-2: #E4A9A8;
+    --color-3: #27a33b;
+}
+
+.title-word-4 {
+    --color-1: #3158e7;
+    --color-2: #DF8453;
+    --color-3: #E4A9A8;
+}
+
+@keyframes color-animation {
+    0% {
+        color: var(--color-1)
+    }
+
+    32% {
+        color: var(--color-1)
+    }
+
+    33% {
+        color: var(--color-2)
+    }
+
+    65% {
+        color: var(--color-2)
+    }
+
+    66% {
+        color: var(--color-3)
+    }
+
+    99% {
+        color: var(--color-3)
+    }
+
+    100% {
+        color: var(--color-1)
+    }
+}
+
+.title {
+    position: absolute;
+    width: 60%;
+    left: 34%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+}
+
+.container_2 {
+    position: relative;
+    margin: 8% 1%;
+    width: 70vw;
+    height: 60vh;
+}
+
+img {
+    height: 40%;
+    width: auto;
+}
+
+#NARUTO {
+    position: absolute;
+    top: 20%;
+    left: 2%;
+}
+
+#JJK {
+    position: absolute;
+    top: 80%;
+    left: 2%;
+}
+
+#haikyuu {
+    position: absolute;
+    top: 140%;
+    left: 2%;
+}
+
+#deathnote {
+    position: absolute;
+    top: 200%;
+    left: 2%;
+}
+
+#AOT {
+    position: absolute;
+    top: 260%;
+    left: 2%;
+}
+
+#FMAL {
+    position: absolute;
+    top: 315%;
+    left: 2%;
+}
+
+#COE {
+    position: absolute;
+    top: 368%;
+    left: 2%;
+    width: 27%;
+    height: 58%;
+}
+
+#DBZ {
+    position: absolute;
+    top: 440%;
+    left: 2%;
+    width: 29%;
+    height: 50%;
+}
+
+#FF {
+    position: absolute;
+    top: 510%;
+    left: 2%;
+    width: 30%;
+    height: 60%;
+}
+
+#HXH {
+    position: absolute;
+    top: 590%;
+    left: 2%;
+    width: 30%;
+    height: 70%;
+}
+
+.heading {
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    font-size: 40px;
+    color: #1dbcce;
+}
+
+.Names {
+    color: #1dbcce;
+}
+
+#name-1 {
+    position: absolute;
+    top: 22%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-2 {
+    position: absolute;
+    top: 57%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-3 {
+    position: absolute;
+    top: 92%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-4 {
+    position: absolute;
+    top: 127%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-5 {
+    position: absolute;
+    top: 165%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-6 {
+    position: absolute;
+    top: 199%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-7 {
+    position: absolute;
+    top: 230%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-8 {
+    position: absolute;
+    top: 273%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-9 {
+    position: absolute;
+    top: 315%;
+    left: 20%;
+    font-size: 30px;
+}
+
+#name-10 {
+    position: absolute;
+    top: 362%;
+    left: 20%;
+    font-size: 30px;
+}
+
+.videos {
+    width: 33%;
+}
+
+.divs {
+    border: 2px red;
+    display: inline;
+}
+
+#v1 {
+    position: relative;
+    top: 12vh;
+    left: 50vw;
+}
+
+#v2 {
+    position: relative;
+    top: 47vh;
+    left: 26.5vw;
+}
+
+#v3 {
+    position: relative;
+    top: 83vh;
+    left: 3vw;
+}
+
+#v4 {
+    position: relative;
+    top: 95vh;
+    left: 50vw;
+}
+
+#v5 {
+    position: relative;
+    top: 130vh;
+    left: 27vw;
+}
+
+#v6 {
+    position: relative;
+    top: 163vh;
+    left: 4vw;
+}
+
+#v7 {
+    position: relative;
+    top: 180vh;
+    left: 50vw;
+}
+
+#v8 {
+    position: relative;
+    top: 220vh;
+    left: 26vw;
+}
+
+#v9 {
+    position: relative;
+    top: 260vh;
+    left: 3vw;
+}
+
+#v10 {
+    position: relative;
+    top: 280vh;
+    left: 50vw;
+}
